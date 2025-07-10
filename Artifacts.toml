@@ -1,0 +1,24 @@
+[[Knitro]]
+git-tree-sha1 = "d7685655ad900ed0b4effa4e8da4b3f1141f81ad"
+arch = "x86_64"
+os = "linux"
+
+    [[Knitro.download]]
+    sha256 = "9f3a96f30cd7462800dc765b53e11e209e4a1ba28dee02ecbf370cca498f6917"
+    url = "https://drive.usercontent.google.com/download?id=1uUwCTa-JIUarnh8OEP_siiZ0FUs9A1G9&export=download&authuser=0&confirm=t&uuid=6bea6527-a909-4efe-a7c2-0ff7da0f8a81&at=APcmpozvpDzcpRBkuE8zlHCVMTTB:1743738795520"
+[[Knitro]]
+git-tree-sha1 = "1f1efbf5322a4462b001ad0d5b786885a077e222"
+arch = "aarch64"
+os = "macos"
+
+    [[Knitro.download]]
+    sha256 = "a0feb9e08094090661504b246be1a9696d1c03fec7ccd1785af8f23d12fec103"
+    url = "https://drive.usercontent.google.com/download?id=1bgY09o5SNajMLi8tEk4_zqL3d_SkQaBU&export=download&authuser=0&confirm=t&uuid=6bea6527-a909-4efe-a7c2-0ff7da0f8a81&at=APcmpozvpDzcpRBkuE8zlHCVMTTB:1743738795520"
+[[Knitro]]
+git-tree-sha1 = "51aac5d04c90cf43e59b153d1cab1311a7590c50"
+arch = "x86_64"
+os = "windows"
+
+    [[Knitro.download]]
+    sha256 = "5d69529b031a2dc54e6fadbd9c27d5194d9c5bff84a441288e272deded5717ae"
+    url = "https://drive.usercontent.google.com/download?id=1xj1jcms3dVFXw9q6lcc6843ekq9kA2jV&export=download&authuser=0&confirm=t&uuid=6bea6527-a909-4efe-a7c2-0ff7da0f8a81&at=APcmpozvpDzcpRBkuE8zlHCVMTTB:1743738795520"
