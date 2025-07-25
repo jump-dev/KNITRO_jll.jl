@@ -13,14 +13,18 @@ JLLWrappers.@declare_executable_product(knitroampl)
 
 function __init__()
     JLLWrappers.@generate_init_header()
+    # There's a permission error with the conda binaries
+    if (stat(artifact_dir).mode & 0o777) != 0o755
+        chmod(artifact_dir, 0o755; recursive = true)
+    end
     JLLWrappers.@init_library_product(
         libknitro,
-        "knitro/lib/knitro.dll",
+        "knitro\\lib\\knitro.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
     JLLWrappers.@init_executable_product(
         knitroampl,
-        "knitro/knitroampl/knitroampl.exe",
+        "knitro\\knitroampl\\knitroampl.exe",
     )
     JLLWrappers.@generate_init_footer()
     return
