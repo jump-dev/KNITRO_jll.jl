@@ -23,6 +23,11 @@ end
 
 @testset "knitroampl" begin
     @test KNITRO_jll.knitroampl_path isa String
-    contents = sprint(io -> run(pipeline(`$(knitroampl()) -v`, stdout = io)))
-    @test occursin("KNITRO", contents)
+    contents = sprint() do io
+        try
+            run(pipeline(`$(knitroampl()) -v`; stdout = io))
+        catch
+        end
+    end
+    @test occursin("Knitro 15.0.0", contents)
 end
