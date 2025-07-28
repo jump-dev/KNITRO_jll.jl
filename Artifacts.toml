@@ -1,0 +1,24 @@
+[[KNITRO]]
+git-tree-sha1 = "d7685655ad900ed0b4effa4e8da4b3f1141f81ad"
+arch = "x86_64"
+os = "linux"
+
+    [[KNITRO.download]]
+    sha256 = "9f3a96f30cd7462800dc765b53e11e209e4a1ba28dee02ecbf370cca498f6917"
+    url = "https://github.com/jump-dev/KNITRO_jll.jl/releases/download/v15.0.0-binary/x86_64-linux-gnu.tar.bz2"
+[[KNITRO]]
+git-tree-sha1 = "1f1efbf5322a4462b001ad0d5b786885a077e222"
+arch = "aarch64"
+os = "macos"
+
+    [[KNITRO.download]]
+    sha256 = "a0feb9e08094090661504b246be1a9696d1c03fec7ccd1785af8f23d12fec103"
+    url = "https://github.com/jump-dev/KNITRO_jll.jl/releases/download/v15.0.0-binary/aarch64-apple-darwin.tar.bz2"
+[[KNITRO]]
+git-tree-sha1 = "51aac5d04c90cf43e59b153d1cab1311a7590c50"
+arch = "x86_64"
+os = "windows"
+
+    [[KNITRO.download]]
+    sha256 = "5d69529b031a2dc54e6fadbd9c27d5194d9c5bff84a441288e272deded5717ae"
+    url = "https://github.com/jump-dev/KNITRO_jll.jl/releases/download/v15.0.0-binary/x86_64-w64-mingw32.tar.bz2"
