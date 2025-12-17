@@ -22,9 +22,10 @@ function get_artifact(data)
 end
 
 function main()
-    tag = "v15.0.1-binary"
+    tag = "v15.1.0-binary"
     platforms = [
         (os = "linux", arch = "x86_64", name = "linux-gnu", tag = tag),
+        (os = "linux", arch = "aarch64", name = "linux-gnu", tag = tag),
         (os = "macos", arch = "aarch64", name = "apple-darwin", tag = tag),
         (os = "windows", arch = "x86_64", name = "w64-mingw32", tag = tag),
     ]

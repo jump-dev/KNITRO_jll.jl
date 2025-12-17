@@ -17,7 +17,7 @@ end
     release = zeros(Cchar, length)
     GC.@preserve release begin
         @ccall libknitro.KN_get_release(length::Cint, release::Ptr{Cchar})::Cint
-        @test unsafe_string(pointer(release)) == "Knitro 15.0.1"
+        @test unsafe_string(pointer(release)) == "Knitro 15.1.0"
     end
 end
 

@@ -1,24 +1,32 @@
 [[KNITRO]]
-git-tree-sha1 = "a9b7b5d6018fe63d10edba9341596eaa80010aad"
+git-tree-sha1 = "415e65d08a3868ce1c20994879f9c41372cd0178"
 arch = "x86_64"
 os = "linux"
 
     [[KNITRO.download]]
-    sha256 = "d6d533cb0e0adcf4503ed0d85485ca6bb65dd83d71fc99927e18a59d83465393"
-    url = "https://github.com/jump-dev/KNITRO_jll.jl/releases/download/v15.0.1-binary/x86_64-linux-gnu.tar.bz2"
+    sha256 = "8d75d2dd2f222ada413dba74e55fc629fbd14cbc97c5c6b79b3ff99ea3fa8c7b"
+    url = "https://github.com/jump-dev/KNITRO_jll.jl/releases/download/v15.1.0-binary/x86_64-linux-gnu.tar.bz2"
 [[KNITRO]]
-git-tree-sha1 = "eb96189d188a0af9ab16d1962584c3278e61a2dc"
+git-tree-sha1 = "eff6d482988792a4d38a058d531e0562e17f43b0"
+arch = "aarch64"
+os = "linux"
+
+    [[KNITRO.download]]
+    sha256 = "f31dbfa37545a49470d76940b51deeaf59be1cabf4a8f8ec3cca67d8b35c5762"
+    url = "https://github.com/jump-dev/KNITRO_jll.jl/releases/download/v15.1.0-binary/aarch64-linux-gnu.tar.bz2"
+[[KNITRO]]
+git-tree-sha1 = "da56f670dff88f67dd87c5d2730db35d171181d3"
 arch = "aarch64"
 os = "macos"
 
     [[KNITRO.download]]
-    sha256 = "01d5c031b93c78abc2b603f34bbe038bd729a719dbb28683211613a7871b76c4"
-    url = "https://github.com/jump-dev/KNITRO_jll.jl/releases/download/v15.0.1-binary/aarch64-apple-darwin.tar.bz2"
+    sha256 = "31701d3e0e071c0aac8d38604c57f220feab3165f660db88af77169f3ea4c64d"
+    url = "https://github.com/jump-dev/KNITRO_jll.jl/releases/download/v15.1.0-binary/aarch64-apple-darwin.tar.bz2"
 [[KNITRO]]
-git-tree-sha1 = "c1d140c66fa381df2790a384912bd1f868f470b2"
+git-tree-sha1 = "941672e304b829e6e0baefcff0e449988cd159fe"
 arch = "x86_64"
 os = "windows"
 
     [[KNITRO.download]]
-    sha256 = "9c59ed932d8200d9929bf182652473f6f8f2fe82d8d1dc71e352a4e979b76138"
-    url = "https://github.com/jump-dev/KNITRO_jll.jl/releases/download/v15.0.1-binary/x86_64-w64-mingw32.tar.bz2"
+    sha256 = "7a80809dd3d4cee54178e19929bb16923d0dab40a3de57bf49be6e0829d36e6e"
+    url = "https://github.com/jump-dev/KNITRO_jll.jl/releases/download/v15.1.0-binary/x86_64-w64-mingw32.tar.bz2"
