@@ -26,6 +26,7 @@ The underlying solver is a closed-source commercial product for which you must
 
 * `macOS arm64` (`aarch64-apple-darwin`)
 * `Linux x86_64` (`x86_64-linux-gnu`)
+* `Linux aarch64` (`aarch64-linux-gnu`)
 * `Windows x86_64` (`x86_64-w64-mingw32`)
 
 ## Products
