@@ -11,14 +11,14 @@ if ! command -v pip &> /dev/null; then
     exit 1
 fi
 
-KNITRO_VERSION="15.1.0"
+KNITRO_VERSION="16.0.0"
 
 # Platform configuration: platform -> "pip_platform|license_path|min_version"
 declare -A PLATFORM_CONFIG
-PLATFORM_CONFIG["aarch64-apple-darwin"]="macosx_13_0_arm64|licenses/LICENSE|15.0.0"
+PLATFORM_CONFIG["aarch64-apple-darwin"]="macosx_13_0_arm64|LICENSE|15.0.0"
 PLATFORM_CONFIG["x86_64-w64-mingw32"]="win_amd64|LICENSE|15.0.0"
-PLATFORM_CONFIG["x86_64-linux-gnu"]="manylinux_2_28_x86_64|licenses/LICENSE|15.0.0"
-PLATFORM_CONFIG["aarch64-linux-gnu"]="manylinux_2_28_aarch64|licenses/LICENSE|15.1.0"
+PLATFORM_CONFIG["x86_64-linux-gnu"]="manylinux_2_28_x86_64|LICENSE|15.0.0"
+PLATFORM_CONFIG["aarch64-linux-gnu"]="manylinux_2_28_aarch64|LICENSE|15.1.0"
 
 version_gte() {
     local v1=$1
