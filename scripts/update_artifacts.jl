@@ -5,12 +5,21 @@
 
 using Tar, Inflate, SHA, TOML
 
+function decompressor()
+    for cmd in ("bzcat", "gzcat")
+        if Sys.which(cmd) !== nothing
+            return cmd
+        end
+    end
+    return error("Neither `bzcat` nor `gzcat` was found on PATH")
+end
+
 function get_artifact(data)
     file = "$(data.arch)-$(data.name).tar.bz2"
     url = "https://github.com/jump-dev/KNITRO_jll.jl/releases/download/$(data.tag)/$file"
     filename = "/tmp/libknitro/$file"
     ret = Dict(
-        "git-tree-sha1" => Tar.tree_hash(`gzcat $filename`),
+        "git-tree-sha1" => Tar.tree_hash(`$(decompressor()) $filename`),
         "arch" => data.arch,
         "os" => data.os,
         "download" => Any[
@@ -22,7 +31,7 @@ function get_artifact(data)
 end
 
 function main()
-    tag = "v15.1.0-binary"
+    tag = "v16.0.0-binary"
     platforms = [
         (os = "linux", arch = "x86_64", name = "linux-gnu", tag = tag),
         (os = "linux", arch = "aarch64", name = "linux-gnu", tag = tag),

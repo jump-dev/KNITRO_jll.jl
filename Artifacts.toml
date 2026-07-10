@@ -1,32 +1,32 @@
 [[KNITRO]]
-git-tree-sha1 = "415e65d08a3868ce1c20994879f9c41372cd0178"
+git-tree-sha1 = "3bcf8391cf37bf1c6656f847149a7bd066e1096f"
 arch = "x86_64"
 os = "linux"
 
     [[KNITRO.download]]
-    sha256 = "8d75d2dd2f222ada413dba74e55fc629fbd14cbc97c5c6b79b3ff99ea3fa8c7b"
-    url = "https://github.com/jump-dev/KNITRO_jll.jl/releases/download/v15.1.0-binary/x86_64-linux-gnu.tar.bz2"
+    sha256 = "bdfa52525815148849554f6ab8debd33f0a76c6c6d6c443029f3d1ffb809aecc"
+    url = "https://github.com/jump-dev/KNITRO_jll.jl/releases/download/v16.0.0-binary/x86_64-linux-gnu.tar.bz2"
 [[KNITRO]]
-git-tree-sha1 = "eff6d482988792a4d38a058d531e0562e17f43b0"
+git-tree-sha1 = "794de8e39303d92a33bec6ae1a29415e6bcefddd"
 arch = "aarch64"
 os = "linux"
 
     [[KNITRO.download]]
-    sha256 = "f31dbfa37545a49470d76940b51deeaf59be1cabf4a8f8ec3cca67d8b35c5762"
-    url = "https://github.com/jump-dev/KNITRO_jll.jl/releases/download/v15.1.0-binary/aarch64-linux-gnu.tar.bz2"
+    sha256 = "b26fc27796473f3a4de0f6e1867133a1cb48ed2e3018c7f0f62a61248ca3ece1"
+    url = "https://github.com/jump-dev/KNITRO_jll.jl/releases/download/v16.0.0-binary/aarch64-linux-gnu.tar.bz2"
 [[KNITRO]]
-git-tree-sha1 = "da56f670dff88f67dd87c5d2730db35d171181d3"
+git-tree-sha1 = "1212bd761722e4fbd6f23765d2ff2da965f510bf"
 arch = "aarch64"
 os = "macos"
 
     [[KNITRO.download]]
-    sha256 = "31701d3e0e071c0aac8d38604c57f220feab3165f660db88af77169f3ea4c64d"
-    url = "https://github.com/jump-dev/KNITRO_jll.jl/releases/download/v15.1.0-binary/aarch64-apple-darwin.tar.bz2"
+    sha256 = "a045439ffa502ab81bac2e3be36ae972fa5bdb0667b2a7850ffccd6628598515"
+    url = "https://github.com/jump-dev/KNITRO_jll.jl/releases/download/v16.0.0-binary/aarch64-apple-darwin.tar.bz2"
 [[KNITRO]]
-git-tree-sha1 = "941672e304b829e6e0baefcff0e449988cd159fe"
+git-tree-sha1 = "a8d92bf108f10a5656249786d8d2f2aa05c5c164"
 arch = "x86_64"
 os = "windows"
 
     [[KNITRO.download]]
-    sha256 = "7a80809dd3d4cee54178e19929bb16923d0dab40a3de57bf49be6e0829d36e6e"
-    url = "https://github.com/jump-dev/KNITRO_jll.jl/releases/download/v15.1.0-binary/x86_64-w64-mingw32.tar.bz2"
+    sha256 = "420fa33aceab47ef926eb09bcb3a82aae42da28226d4e3c8dfbfc8a809f58d04"
+    url = "https://github.com/jump-dev/KNITRO_jll.jl/releases/download/v16.0.0-binary/x86_64-w64-mingw32.tar.bz2"
